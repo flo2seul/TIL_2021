@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+       function passCheck() {
+       //전송 버튼을 클릭했을 때 진행되는 이벤트를 기술...
+       //alert("passCheck calling...");//버튼과 이벤트가 잘 연결되었는지를 확인....
+       /*
+         password와 repassword의 값이 일치하지 않으면 페이지 이동 안되고
+         일치 하지 않는 다는 메세지를 alert로 띄워준다.
+       */
+       var f=document.registerForm;
+       if(f.password.value != f.repassword.value){
+           alert("비밀번호가 일치하지 않습니다.")
+           f.repassword = "";
+           f.repassword.focus();
+           return false;
+       }
+</script>
+</head>
+<body>
+<form action="RMS" method="post"  onsubmit="passCheck()" name="registerForm">
+	<h1>Resister Member Form</h1><br><br>
+	ID : <input type="text" name="id" required="required"><br>
+	PASSWARD : <input type="password" name="password" required="required"><br>
+	PASSWARD Comfirm: <input type="password" name="repassword" required="required"><br>
+	NAME : <input type="text" name="name" required="required"><br>
+	ADDRESS : <input type="text" name="address" required="required"><br>
+	<input type="submit" value="Member Rester"> <!-- submit버튼 클릭시 함수 호출되도록 이벤트 연결은 form태그에서 하세여 -->
+</form>
+
+</body>
+</html>

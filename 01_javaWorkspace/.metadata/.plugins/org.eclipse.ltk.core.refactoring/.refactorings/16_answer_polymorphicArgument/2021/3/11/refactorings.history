@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 packages to &apos;19_Interface/src&apos;&#x0D;&#x0A;- Original project: &apos;16_answer_polymorphicArgument&apos;&#x0D;&#x0A;- Destination element: &apos;19_Interface/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     16_answer_polymorphicArgument/src/poly.test&#x0D;&#x0A;     16_answer_polymorphicArgument/src/poly.vo&#x0D;&#x0A;     16_answer_polymorphicArgument/src/poly.service" description="Copy packages" destination="=19_Interface/src" element1="/src&lt;poly.test" element2="/src&lt;poly.vo" element3="/src&lt;poly.service" flags="589830" fragments="3" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1615185593397" version="1.0"/>
+</session>

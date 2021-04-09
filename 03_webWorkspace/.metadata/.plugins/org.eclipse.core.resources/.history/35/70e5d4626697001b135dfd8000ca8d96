@@ -1,0 +1,26 @@
+package pattern.factory;
+
+public class ControllerFactory {
+	private static ControllerFactory factory = new ControllerFactory();
+	private ControllerFactory() {
+		System.out.println("");
+	public static ControllerFactory getInstance() {
+		return factory;
+	}
+	
+	//Controller甫 积己窍绰 扁瓷
+	public Controller createController(Strng command) {
+		Controller controller = null;
+		if(command.equals("INSERT")) {
+			controller = new AddController();
+			System.out.println("AddController...积己");
+		}else if(command.equals("UPDATE")) {
+			controller = new UpdateController();
+			System.out.println("UpdateController...积己");
+		}else if(command.equals("DELETE")) {
+			controller = new DeleteController();
+			System.out.println("DeleteController...积己");
+		}
+	}
+
+}

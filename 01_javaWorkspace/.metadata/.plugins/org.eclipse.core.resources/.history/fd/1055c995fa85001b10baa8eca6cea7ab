@@ -1,0 +1,24 @@
+package chatting.step2.client;
+
+import java.net.ServerSocket;
+import java.net.Socket;
+
+/*
+ * 클라이언트가 보낸 메세지 받아서
+ * 다시 그 메세지를 클라이언트에게 보낸다.
+ */
+public class ChattClient {
+    //필드 선언
+	Socket s;
+	
+	//Stream
+	public void net() {
+		
+	}
+	public static void main(String[] args) {
+		ChattClient cc = new ChattClient();
+		cc.net();
+		
+	}
+
+}

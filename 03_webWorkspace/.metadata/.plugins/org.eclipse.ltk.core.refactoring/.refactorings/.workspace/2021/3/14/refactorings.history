@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;web02_GenericServelet&apos; to &apos;web02_GenericServlet&apos;" description="Rename resource &apos;web02_GenericServelet&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/web02_GenericServelet" name="web02_GenericServlet" stamp="1616987825267" updateReferences="true"/>
+</session>

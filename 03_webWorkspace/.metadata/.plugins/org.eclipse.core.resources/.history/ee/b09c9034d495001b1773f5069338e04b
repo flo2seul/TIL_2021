@@ -1,0 +1,8 @@
+package snippet;
+
+public class Snippet {
+	<%
+		ArrayList<MemberVO> list=(ArrayList)request.getAttribute("list");
+	%>
+}
+

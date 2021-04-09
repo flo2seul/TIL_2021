@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;_web21_FactoryPattern&apos; to &apos;web211_FactoryPattern&apos;" description="Rename resource &apos;_web21_FactoryPattern&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/_web21_FactoryPattern" name="web211_FactoryPattern" stamp="1617797078915" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;web211_FactoryPattern&apos; to &apos;web22_FactoryPattern&apos;" description="Rename resource &apos;web211_FactoryPattern&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/web211_FactoryPattern" name="web22_FactoryPattern" stamp="1617844924503" updateReferences="true"/>
+</session>

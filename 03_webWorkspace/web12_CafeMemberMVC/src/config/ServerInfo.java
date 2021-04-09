@@ -1,0 +1,15 @@
+package config;
+/*
+ * ?””ë¹„ì„œë²? ? •ë³´ì˜ ?ƒ?ˆ˜ê°’ìœ¼ë¡? êµ¬ì„±?œ ?¸?„°?˜?´?Š¤
+ * Driver FQCN
+ * DBServer URL
+ * DBServer USER
+ * DBServer PASSWORD
+ */
+public interface ServerInfo {
+	String DRIVER_NAME = "com.mysql.cj.jdbc.Driver"; 
+	String URL = "jdbc:mysql://127.0.0.1:3306/scott?serverTimezone=UTC&useUnicode=yes&characterEncoding=UTF-8";
+	String USER = "root";
+	String PASS = "1234";
+	
+}

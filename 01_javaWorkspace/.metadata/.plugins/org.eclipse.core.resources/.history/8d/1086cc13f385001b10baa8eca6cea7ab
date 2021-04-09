@@ -1,0 +1,22 @@
+package chatting.step1.client;
+
+import java.net.Socket;
+
+import chatting.step1.server.ChattServer;
+
+/*
+ * Socket 통신에서 클라이언트측 로직을 담고 있는 프로세스
+ * 소켓을 생성해서 요청을 하고자하는 서버측으로 연결을 시도
+ * 이때 서버측이 가지고 있는 포트와 동일한 포트를 이용해야 연결이 될 수 있다.
+ */
+public class ChattClient {
+	Socket s;
+    public void net() {
+    	
+    }
+	public static void main(String[] args) {
+		ChattServer chattServer = new ChattServer();
+		chattServer.net();
+	}
+
+}

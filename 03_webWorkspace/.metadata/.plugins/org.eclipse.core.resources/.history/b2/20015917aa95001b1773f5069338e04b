@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+       function passCheck() {
+       //전송 버튼을 클릭했을 때 진행되는 이벤트를 기술...
+       alert("passCheck calling...");//버튼과 이벤트가 잘 연결되었는지를 확인....
+       }
+</script>
+</head>
+<body>
+<form action="RMS" method="post">
+	<h1>Resister Member Form</h1><br><br>
+	ID : <input type="text" name="id" required="required"><br>
+	PASSWARD : <input type="password" name="password" required="required"><br>
+	NAME : <input type="text" name="name" required="required"><br>
+	ADDRESS : <input type="text" name="address" required="required"><br>
+	<input type="submit" value="Member Rester" onsubmit="passCheck()"> <!-- submit버튼 클릭시 함수 호출되도록 이벤트 연결 -->
+</form>
+
+</body>
+</html>

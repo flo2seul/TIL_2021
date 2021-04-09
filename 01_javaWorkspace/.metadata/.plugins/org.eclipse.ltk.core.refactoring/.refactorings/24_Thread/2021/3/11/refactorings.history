@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;InputThreadTest1.java&apos; to &apos;thread.step4.test.InputThreadTest1.java&apos;&#x0D;&#x0A;- Original project: &apos;24_Thread&apos;&#x0D;&#x0A;- Destination element: &apos;thread.step4.test.InputThreadTest1.java&apos;&#x0D;&#x0A;- Original element: &apos;thread.step4.test.InputThreadTest1.java&apos;" description="Copy compilation unit" destination="/src&lt;thread.step4.test{InputThreadTest1.java" element1="/src&lt;thread.step4.test{InputThreadTest1.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1615445717848" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;poly.vo&apos; to &apos;22_Collection API/src&apos;&#x0D;&#x0A;- Original project: &apos;16_PolymorphicArgument_self&apos;&#x0D;&#x0A;- Destination element: &apos;22_Collection API/src&apos;&#x0D;&#x0A;- Original element: &apos;16_PolymorphicArgument_self/src/poly.vo&apos;" description="Copy package" destination="=22_Collection API/src" element1="/src&lt;poly.vo" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1615271005690" version="1.0"/>
+</session>

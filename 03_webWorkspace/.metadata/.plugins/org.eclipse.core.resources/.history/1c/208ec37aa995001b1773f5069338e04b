@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="RMS" method="post">
+	<h1>Resister Member Form</h1><br><br>
+	ID : <input type="text" name="id" required="required"><br>
+	PASSWARD : <input type="password" name="password" required="required"><br>
+	NAME : <input type="text" name="name" required="required"><br>
+	ADDRESS : <input type="text" name="address" required="required"><br>
+	<input type="submit" value="Member Rester">
+</form>
+
+</body>
+</html>

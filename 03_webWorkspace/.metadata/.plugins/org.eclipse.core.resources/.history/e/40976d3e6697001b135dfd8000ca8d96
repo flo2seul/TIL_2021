@@ -1,0 +1,15 @@
+package pattern.factory;
+
+public class ControllerFactory {
+	private static ControllerFactory factory = new ControllerFactory();
+	private ControllerFactory() {
+		System.out.println("");
+	public static ControllerFactory getInstance() {
+		return factory;
+	}
+	
+	//Controller를 생성하는 기능
+	public Controller createC
+	}
+
+}

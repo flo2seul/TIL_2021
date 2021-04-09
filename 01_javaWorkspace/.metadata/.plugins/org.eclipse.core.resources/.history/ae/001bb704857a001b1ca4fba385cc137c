@@ -1,0 +1,63 @@
+package com.encore.w01test;
+
+
+public class W01_1Test {
+
+	public static void main(String[] args) {
+		
+		int firstLine = 6;
+		int secondLine = 10;
+		int thirdLine = 13;
+		int fourthLine = 15;
+		int fifthLine = 16;
+		
+		for(int i = 1; i<firstLine; i++) {
+			
+				System.out.print(i);
+				
+		}
+		System.out.println();
+		
+		for(int i = 6; i<secondLine; i++) {
+			
+		    if (i==6) {
+				System.out.print(" "+i);
+			}
+		    else {
+		    	System.out.print(i);
+		    }
+		    
+	}
+		System.out.println();
+	for(int i = 10; i<thirdLine; i++) {
+			
+		    if (i==10) {
+				System.out.print("  "+i);
+			}
+		    else {
+		    	System.out.print(i);
+		    }
+		    
+	}
+		System.out.println();
+	for(int i = 13; i<fourthLine; i++) {
+			
+		    if (i==13) {
+				System.out.print("   "+i);
+			}
+		    else {
+		    	System.out.print(i);
+		    }
+		    
+	}
+		System.out.println();
+	for(int i = 15; i<fifthLine; i++) {
+			
+
+				System.out.print("    "+i);
+			
+		    
+	}
+		System.out.println();
+	}
+}

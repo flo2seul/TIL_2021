@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package servlet.model;
+
+/**
+ * @author Playdata
+ *
+ */
+public class UserDAOImpl {
+
+}

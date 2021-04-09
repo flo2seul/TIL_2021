@@ -1,0 +1,10 @@
+package thread.step4.test;
+
+public class InputThreadTest1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

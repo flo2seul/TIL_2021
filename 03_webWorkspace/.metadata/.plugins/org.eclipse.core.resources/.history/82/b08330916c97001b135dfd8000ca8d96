@@ -1,0 +1,30 @@
+package servlet.controller;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class FindController implements Controller{
+
+	@Override
+	public String execute(HttpServletRequest request, HttpServletResponse response) {
+		String id=  request.getParameter("id");
+		String password = request.getParameter("password");
+		String path = "";
+		try {
+			MemberVO rvo=MemberDAOImpl.getInstance().login(id, password);
+			
+			
+			HttpSession session = request.getSession();
+			if(rvo!=null) {
+				session.setAttribute("vo", rvo);
+				System.out.println("JSESSIONID :: "+session.getId());				
+				path = "login_result.jsp";
+			}
+		}catch(Exception e) {
+			
+		}
+		return path;
+	
+	}
+
+}

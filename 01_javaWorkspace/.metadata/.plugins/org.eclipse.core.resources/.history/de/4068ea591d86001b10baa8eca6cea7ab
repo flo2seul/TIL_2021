@@ -1,0 +1,51 @@
+package chatting.step3.server;
+
+import java.io.IOException;
+import java.net.ServerSocket;
+import java.net.Socket;
+import java.util.ArrayList;
+
+/*
+ * 여러명의 클라이어느의 접속을 받아서
+ * 문자기반의 메세지를 주고받을 수 있는
+ * 서버측 로직을 작성
+ * ::
+ * ChattServer - - -  Process
+ *      |-------> ServerSocket, ArrayList, Socket
+ *                broadcast()
+ *                
+ * ChattThread - - - Thread
+ *      |--------> Socket, BufferedReader, PrintWriter 
+ */
+public class ChattServer {
+	//Process의 필드를 지정
+	ServerSocket server;
+	Socket s;
+	ArrayList<Chatthread> list;
+	
+	public ChattServer() {
+		try {
+			
+		} catch (Exception e) {
+			
+		}finally {
+			try {
+				
+			} catch (IOException e) {
+				
+			}
+		}
+	}
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
+class Chatthread extends Thread{
+	
+	public void run() {
+		
+	}
+}

@@ -1,0 +1,18 @@
+package com.encore.w01test;
+
+
+public class W01_1Test {
+
+	public static void main(String[] args) {
+	
+	    int num = 1;
+		int Space;
+		
+		while(num < 16) {
+			System.out.print(num+"\t");
+			num++;
+			
+		}
+		
+	}
+}

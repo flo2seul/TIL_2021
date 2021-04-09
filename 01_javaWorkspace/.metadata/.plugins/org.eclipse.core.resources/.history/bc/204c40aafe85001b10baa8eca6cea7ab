@@ -1,0 +1,27 @@
+package chatting.step2.client;
+
+import java.net.ServerSocket;
+import java.net.Socket;
+
+/*
+ * 키보드로 데이터를 읽어들여서
+ * 서버로 보낸다.
+ * ---------------------------------
+ * 다시 서버가 보낸 메시지를 읽어서
+ * 클라이언트 자신의 콘솔창에 메세지를 출력
+ */
+public class ChattClient {
+    //필드 선언
+	Socket s;
+	
+	//Stream
+	public void net() {
+		
+	}
+	public static void main(String[] args) {
+		ChattClient cc = new ChattClient();
+		cc.net();
+		
+	}
+
+}

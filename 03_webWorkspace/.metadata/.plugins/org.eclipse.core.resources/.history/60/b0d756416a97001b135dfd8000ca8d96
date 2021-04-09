@@ -1,0 +1,11 @@
+package pattern.action;
+
+public class UpdateController implements Controller{
+
+	@Override
+	public String requestHandle() {
+		System.out.println("Update Controller..Update logic...");
+		return "update_result.jsp";
+	}
+
+}

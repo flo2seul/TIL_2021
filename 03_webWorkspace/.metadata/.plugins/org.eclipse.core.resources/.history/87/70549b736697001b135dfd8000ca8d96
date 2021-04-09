@@ -1,0 +1,18 @@
+package pattern.client;
+
+import pattern.action.Controller;
+
+public class DispatcherMainTest {
+
+	public static void main(String[] args) {
+		String command = "INSERT";
+		//1.
+		ControllerFactory factory = ControllerFactory.getInstance();
+		Controller controller = factory.createController(command);
+		
+		//2.
+		String path=controller.requestHandle();
+		System.out.println(path);
+	}
+
+}

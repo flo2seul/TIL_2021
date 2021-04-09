@@ -1,0 +1,11 @@
+package pattern.action;
+
+public class UpdateController implements Controller{
+
+	@Override
+	public String requestHandle() {
+		System.out.println("Delete Controller..register logic...");
+		return "delete_result.jsp";
+	}
+
+}
