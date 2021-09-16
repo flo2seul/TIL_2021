@@ -64,7 +64,7 @@ print(calc1(5))#에러나지 않는다...기본값이 활성화되어져 돌아�
 
 #실제로 기본매개변수 사용이 많이 있다.
 import pandas as pd
-from pandas import
+from pandas import DataFrame
 
 
 # In[1]:
@@ -137,3 +137,8 @@ def calc5(name, *args):
     print(name, ':',args)
 calc5('James',3,4,5)
 
+# +@
+def say_hello(name, age):
+        return f"hello {name} you are {age} years"
+hello = say_hello('avery', '25')
+print(hello)
