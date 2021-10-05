@@ -1,6 +1,6 @@
-const title = document.querySelector(".hello:first-child h1");
+const h1 = document.querySelector(".hello:first-child h1");
 
-console.dir(title);
+console.dir(h1);
 function handleTitleClick(){
     console.log("title was clicked");
 }
@@ -12,6 +12,23 @@ function handleMouseEnter(){
 function handleMouseLeave(){
     console.log("Mouse is gone");
 }
-title .addEventListener("click", handleTitleClick); //유저가 클릭할 때, js가 대신 눌러줌
-title.addEventListener("mouseenter",handleMouseEnter);
-title.addEventListener("mouseleave", handleMouseLeave);
+function handleWindowResize(){
+     document.body.style.backgroundColor = "tomato";
+}
+function handleWindowCopy(){
+    alert("copier!");
+}
+function handleWindowOffline(){
+    alert("SOS no wifi");
+}
+function handleWindowOnline(){
+    alert("ALL GOOD");
+}
+h1.onclick = handleTitleClick; //유저가 클릭할 때, js가 대신 눌러줌
+h1.addEventListener("mouseenter",handleMouseEnter);
+h1.addEventListener("mouseleave", handleMouseLeave);
+
+window.addEventListener("resize", handleWindowResize);
+window.addEventListener("copy", handleWindowCopy);
+window.addEventListener("offline", handleWindowOffline);
+window.addEventListener("online", handleWindowOnline);
