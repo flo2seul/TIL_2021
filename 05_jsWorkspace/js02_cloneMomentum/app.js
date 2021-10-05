@@ -1,5 +1,8 @@
-const title = document.querySelector("#hello");
-const title = document.getDlementById("hello");
+const title = document.querySelector(".hello:first-child h1");
 
+function handleTitleClick(){
+    console.log("title was clicked");
+}
 
-console.log(title);
+title .addEventListener("click", handleTitleClick); //유저가 클릭할 때, js가 대신 눌러줌
+
