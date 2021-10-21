@@ -1,5 +1,6 @@
 package self.bank;
 
+
 public class BankService {
     public static final int MAX_CUSTOMERS = 100;
     public Customer[] customers;
@@ -11,6 +12,7 @@ public class BankService {
         customers = new Customer[MAX_CUSTOMERS];
         numberOfCustomers = 0;
     }
+
 
     public static BankService getInstance() {
         return bank;
